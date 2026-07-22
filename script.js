@@ -1,3 +1,5 @@
+"use strict";
+
 const modal = new bootstrap.Modal(document.getElementById("imageModal"));
 const modalImage = document.getElementById("modalImage");
 
