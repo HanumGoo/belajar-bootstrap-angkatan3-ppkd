@@ -9,3 +9,5 @@ document.querySelectorAll(".gallery-img").forEach((img) => {
     modal.show();
   });
 });
+
+

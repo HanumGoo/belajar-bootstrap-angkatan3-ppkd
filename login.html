@@ -11,7 +11,7 @@
 </head>
 
 <body class="bg-light">
-    <div class="container bg-white shadow-sm">
+    <div class="container bg-white shadow-sm min-vh-100">
         <div class="row py-5 text-center align-items-center">
             <div class="col-2">
                 <img class="img-fluid rounded-circle" src="./assets/ppkd.jpg" width="150" alt="">
@@ -56,20 +56,20 @@
             </div>
         </nav>
 
-        <div class="card my-3 w-100 d-flex m-auto p-4 bg-light bg-opacity-50">
-            <!-- <h5 class="card-header">Welcome Back!</h5> -->
+        <div class="card my-3 w-100 d-flex m-auto p-4 bg-light bg-opacity-50 viewheightclass">
+            <h5 class="card-header text-center">Welcome Back!</h5>
             <form class="row p-2 justify-content-center align-items-center">
                 <div class="col-12 my-2 text-center">
                     <h5 class="card-title fs-1">Login</h5>
                 </div>
                 <div class="col-md-12 col-lg-7 my-2">
-                    <label class="my-1 form-label" for="">Nama</label>
+                    <label class="my-1 form-label" for="">Username</label>
                     <input class="rounded p-1 form-control" type="text w-100" placeholder="Nama...">
                 </div>
-                <div class="col-12 col-lg-7 my-2">
+                <!-- <div class="col-12 col-lg-7 my-2">
                     <label class="my-1 form-label" for="">Email</label>
-                    <input class="rounded p-1 form-control" type="email" placeholder="contoh: email-kamu@gmail.com">
-                </div>
+                    <input class="rounded p-1 form-control" type="email" placeholder="ex: mail@gmail.com">
+                </div> -->
                 <div class="col-12 col-lg-7 my-2">
                     <label class="my-1 form-label" for="">Password</label>
                     <input class="rounded p-1 form-control" type="password" placeholder="Kata Sandi...">
@@ -80,7 +80,7 @@
                     <a role="button" class="card-text" href="">Daftar</a>
                 </div>
                 <div class="col-12 col-lg-7 my-2 text-center">
-                    <a type="submit" href="#" class="btn btn-primary w-100">Login</a>
+                    <button type="submit" href="#" class="btn btn-primary w-100">Login</button>
                 </div>
 
 
@@ -93,7 +93,7 @@
 
 
 
-        <footer class="bg-secondary py-3 text-center w-100 rounded">
+        <footer class="bg-secondary py-3 text-center w-100 rounded-2">
             © 2026 PPKD Jakarta Pusat. All right reserved.
         </footer>
 

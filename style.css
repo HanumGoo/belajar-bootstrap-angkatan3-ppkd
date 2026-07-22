@@ -21,3 +21,7 @@
 html {
   scroll-padding-top: 80px;
 }
+
+.viewheightclass {
+  height: 70vh;
+}
